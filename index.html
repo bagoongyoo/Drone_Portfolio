@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Portofolio Bagoongyoo, pilot drone FPV dan Aerial. Lihat proyek-proyek terbaru dan hubungi untuk bekerja sama.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚁</text></svg>">
+<title>Bagoongyoo – Jasa Drone FPV & Aerial</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#BFE6FF;--bg2:#FFD23F;--ink:#151515;--paper:#fff;--sh:#151515;--y:#FFD23F;--o:#FF5A36;--t:#14C8B0;--p:#FF8FB1;--b:#3D7BFF;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101a2b;--bg2:#1b2842;--ink:#fff3d6;--paper:#243252;--sh:#fff3d6}}
+:root[data-theme="dark"]{--bg:#101a2b;--bg2:#1b2842;--ink:#fff3d6;--paper:#243252;--sh:#fff3d6}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55;overflow-x:hidden}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--b);outline-offset:3px}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;max-width:1180px;margin:0 auto;padding:56px 24px 72px}
+.hero h1{margin:0 0 18px;font-size:clamp(2.6rem,8.5vw,6.4rem);line-height:.95;font-weight:800;letter-spacing:-.02em}
+.hero h1 span{display:inline-block;color:var(--c);-webkit-text-stroke:2.5px var(--ink);paint-order:stroke fill;text-shadow:4px 4px 0 var(--sh);transform:rotate(var(--r));transition:transform .25s cubic-bezier(.3,1.8,.5,1)}
+.hero h1 span:hover{transform:translateY(-14px) rotate(0)}
+.role{display:inline-block;margin:0 0 16px;padding:6px 16px;background:var(--o);color:#151515;border:3px solid var(--ink);border-radius:99px;font-weight:800;transform:rotate(-2deg);box-shadow:4px 4px 0 var(--sh)}
+.hero p.bio{max-width:52ch;font-size:1.12rem;margin:0 0 22px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 28px;padding:0;list-style:none}
+.chips li{padding:6px 14px;border:3px solid var(--ink);border-radius:12px;font-weight:600;background:var(--c);color:#151515;box-shadow:3px 3px 0 var(--sh)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border:3px solid var(--ink);border-radius:16px;background:var(--b);color:#fff;font:800 1.05rem inherit;font-family:inherit;text-decoration:none;box-shadow:6px 6px 0 var(--sh);transition:transform .15s,box-shadow .15s;cursor:pointer}
+.btn:hover{transform:translate(3px,3px);box-shadow:3px 3px 0 var(--sh)}
+.btn.alt{background:var(--y);color:#151515}.btn.pk{background:var(--p);color:#151515}.acts{display:flex;flex-wrap:wrap;gap:14px}
+.photo{position:relative;justify-self:center;width:min(100%,400px)}
+.frame{margin:0;border:4px solid var(--ink);border-radius:32px;overflow:hidden;background:var(--t);box-shadow:12px 12px 0 var(--sh);transform:rotate(2.5deg)}
+.frame img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover}
+.stk{position:absolute;padding:8px 16px;border:3px solid var(--ink);border-radius:14px;font-weight:800;color:#151515;box-shadow:4px 4px 0 var(--sh)}
+.s1{top:-18px;left:-22px;background:var(--y);transform:rotate(-8deg)}
+.s2{bottom:30px;right:-22px;background:var(--p);transform:rotate(6deg)}
+.star{position:absolute;top:-34px;right:-16px;width:84px;animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.band{background:var(--o);border-block:4px solid var(--ink);overflow:hidden;white-space:nowrap;color:#151515}
+.band div{display:inline-block;padding:12px 0;font-size:1.7rem;font-weight:800;animation:run 28s linear infinite}
+.band span{margin:0 22px}
+@keyframes run{to{transform:translateX(-50%)}}
+.work{background:var(--bg2);padding:72px 0 80px;border-bottom:4px solid var(--ink)}
+.wh{max-width:1180px;margin:0 auto;padding:0 24px 28px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:16px}
+.wh h2{margin:0;font-size:clamp(2rem,5vw,3.4rem);line-height:1;font-weight:800}
+.wh p{margin:6px 0 0}
+.ctl{display:flex;align-items:center;gap:12px}
+.ctl button{width:50px;height:50px;border:3px solid var(--ink);border-radius:50%;background:var(--paper);color:var(--ink);font-size:1.4rem;font-weight:800;box-shadow:4px 4px 0 var(--sh);cursor:pointer}
+.ctl button:active{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--sh)}
+.cnt{min-width:64px;text-align:center;font-weight:800}
+.track{display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;padding:20px max(24px,calc((100vw - 1180px)/2 + 24px)) 34px;scrollbar-width:none;cursor:grab}
+.track::-webkit-scrollbar{display:none}
+.card{flex:0 0 min(300px,78vw);scroll-snap-align:center;display:flex;flex-direction:column;gap:12px;padding:12px;border:4px solid var(--ink);border-radius:26px;background:var(--c);color:#151515;box-shadow:8px 8px 0 var(--sh);transform:rotate(var(--r));transition:transform .25s cubic-bezier(.3,1.6,.5,1)}
+.card:hover{transform:rotate(0) translateY(-8px)}
+.pv{position:relative;height:620px;border:3px solid #151515;border-radius:16px;background:#fff;overflow:hidden}
+.pv iframe,.pv video{position:absolute;inset:0;width:100%;height:100%;border:0;object-fit:cover;background:#fff}
+.ld{position:absolute;inset:0;display:grid;place-items:center;padding:24px;text-align:center;font-weight:600;color:#151515}
+.lb{text-decoration:none}
+.play{align-self:center;margin:auto;width:78px;height:78px;border:4px solid #151515;border-radius:50%;background:#fff;display:grid;place-items:center;box-shadow:4px 4px 0 #151515;transition:transform .2s}
+.card:hover .play{transform:scale(1.15) rotate(-8deg)}
+.play svg{width:34px;fill:#151515;margin-left:4px}
+.lb{display:flex;justify-content:space-between;align-items:center;font-weight:800;font-size:1.05rem}
+.lb b{padding:4px 12px;background:#fff;border:3px solid #151515;border-radius:99px;font-size:.9rem}
+.bar{max-width:1180px;margin:0 auto;padding:0 24px}
+.bar div{height:12px;border:3px solid var(--ink);border-radius:99px;background:var(--paper);overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--o)}
+footer{padding:64px 24px 80px;text-align:center}
+footer h2{margin:0 0 20px;font-size:clamp(1.8rem,4.5vw,3rem);font-weight:800}
+dialog{border:4px solid var(--ink);border-radius:26px;padding:14px;background:var(--paper);color:var(--ink);box-shadow:10px 10px 0 var(--sh);width:min(400px,94vw);max-height:96vh}
+dialog::backdrop{background:rgba(10,14,30,.7)}
+dialog iframe{display:block;width:100%;height:min(66vh,620px);border:0;border-radius:14px;background:#fff}
+.dr{display:flex;justify-content:space-between;gap:10px;margin-top:12px}
+.dr .btn{padding:9px 16px;font-size:.95rem;box-shadow:4px 4px 0 var(--sh);margin:0}
+#drone{position:fixed;left:0;top:0;width:60px;height:60px;pointer-events:none;z-index:99;display:none}
+#drone.on{display:block}
+#drone svg{width:100%;height:100%;overflow:visible;transition:transform .2s}
+#drone.big svg{transform:scale(1.6)}
+#drone path,#drone rect,#drone ellipse{stroke:var(--ink);stroke-width:3;stroke-linecap:round}
+.rt{transform-box:fill-box;transform-origin:center;animation:spin .35s linear infinite}
+.sp{position:fixed;width:12px;height:12px;border:2.5px solid var(--ink);border-radius:50%;pointer-events:none;z-index:98;translate:-50% -50%;animation:sp .75s ease-out forwards}
+@keyframes sp{to{transform:translate(var(--dx),var(--dy)) scale(0);opacity:0}}
+@media (max-width:820px){.hero{grid-template-columns:1fr;gap:44px;padding-top:36px}.photo{order:-1;width:min(100%,320px)}}
+@media (prefers-reduced-motion:reduce){.band div,.star,.rt{animation:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div>
+    <p class="role">Pilot drone FPV &amp; Aerial</p>
+    <h1 id="nm" aria-label="Bagoongyoo">Bagoongyoo</h1>
+    <p class="bio">Saya adalah pilot drone FPV dan Aerial yang sudah memiliki pengalaman beberapa tahun ke belakang. Saya juga sudah pernah mengerjakan beberapa proyek besar, seperti klien dari Yamaha, Romansa Berpesta, Veteran Cup Festival, dan Tegangan Tinggi, serta beberapa klien lokal seperti Heha Jeep View, juga klien-klien lain yang tidak tercatat sebelumnya. Saya membuka kesempatan untuk bekerja sama lebih lanjut.</p>
+  </div>
+  <div class="photo">
+    <svg class="star" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 4l11 24 26-8-8 26 24 12-24 12 8 26-26-8-11 24-11-24-26 8 8-26L1 58l24-12-8-26 26 8z" fill="#3D7BFF" stroke="#151515" stroke-width="4" stroke-linejoin="round"/></svg>
+    <figure class="frame"><img src="assets/foto.jpg" alt="Bagoongyoo memakai goggle FPV dan memegang remote drone di perbukitan"></figure>
+    
+  </div>
+</header>
+<div class="band" aria-hidden="true"><div id="mq"></div></div>
+<main>
+<section class="work" id="proyek">
+  <div class="wh">
+    <div><h2>Proyek saya</h2><p>Geser ke kanan atau kiri untuk melihat proyek-proyek saya.</p></div>
+    <div class="ctl"><button id="pv" aria-label="Sebelumnya">&#8592;</button><span class="cnt" id="ct">1 / 25</span><button id="nx" aria-label="Berikutnya">&#8594;</button></div>
+  </div>
+  <div class="track" id="track" tabindex="0" aria-label="Galeri proyek"></div>
+  <div class="bar"><div><i id="pg"></i></div></div>
+</section>
+</main>
+<footer><h2>Punya ide proyek? Yuk terbang bareng.</h2><div class="acts" style="justify-content:center"><a class="btn alt" href="https://wa.me/6281229419850" target="_blank" rel="noopener">WhatsApp</a><a class="btn pk" href="https://www.instagram.com/bagoongyoo/" target="_blank" rel="noopener">Instagram</a></div></footer>
+
+<div id="drone" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M14 14L50 50M50 14L14 50" fill="none"/><rect x="23" y="23" width="18" height="18" rx="6" fill="#FFD23F"/><circle cx="32" cy="32" r="3.5" fill="#151515"/><ellipse class="rt" cx="12" cy="12" rx="11" ry="4" fill="#14C8B0"/><ellipse class="rt" cx="52" cy="12" rx="11" ry="4" fill="#FF8FB1"/><ellipse class="rt" cx="12" cy="52" rx="11" ry="4" fill="#FF5A36"/><ellipse class="rt" cx="52" cy="52" rx="11" ry="4" fill="#3D7BFF"/></svg></div>
+<script>
+const IDS=["DfHN9riJbJf","DfHTaKRzAkz","DfHa43BTHAr","DfHjPSazIR2","DfHtCdZJ7M1","DfH0yVxTAtL","DfIDGFNTmRR","DfIWMCpTL48","DfIWvh0zxmU","DdxtajmxcrA","DdhbJN9zLzt","DdhRz6Yh273","DdhB9HORClz","DdgrnPcxfXC","Ddg8L2nR-ve","DdgghCUR_8i","DdgSydNx9BQ","DdeTJi8t24t","DYviYH1SqDe","DY6mT1FvSLO","DbVkqreg0VI","DbYIv87gc74","Dbaj4hmA8b7","DaeZ6fqyymB","DbidpbTvoyX"];
+const C=["#FFD23F","#FF5A36","#14C8B0","#FF8FB1","#3D7BFF"],$=id=>document.getElementById(id);
+
+$("nm").innerHTML=[..."Bagoongyoo"].map((c,i)=>`<span aria-hidden="true" style="--c:${C[i%5]};--r:${(i%3-1)*3}deg">${c}</span>`).join("");
+$("mq").innerHTML=Array(2).fill(["FPV sinematik","Video Aerial","Siap terbang","Bagoongyoo"].map(t=>`<span>${t}</span><span>✦</span>`).join("")).join("").repeat(2);
+const tr=$("track");
+tr.innerHTML=IDS.map((id,i)=>`<article class="card" style="--c:${C[i%5]};--r:${[-1.5,1,-.6,1.4][i%4]}deg"><div class="pv" data-id="${id}"><span class="ld">Preview belum tampil? Tonton lewat tombol di bawah.</span></div><a class="lb" href="https://www.instagram.com/reel/${id}/" target="_blank" rel="noopener">Proyek ${i+1}<b>Buka di Instagram</b></a></article>`).join("");
+const step=()=>tr.firstElementChild.offsetWidth+22;
+const go=d=>tr.scrollBy({left:d*step(),behavior:"smooth"});
+$("pv").onclick=()=>go(-1);$("nx").onclick=()=>go(1);
+tr.onscroll=()=>{const m=tr.scrollWidth-tr.clientWidth;$("ct").textContent=`${Math.min(IDS.length,Math.round(tr.scrollLeft/step())+1)} / ${IDS.length}`;$("pg").style.width=(m?tr.scrollLeft/m*100:0)+"%"};
+tr.onscroll();
+tr.addEventListener("keydown",e=>{if(e.key==="ArrowRight")go(1);if(e.key==="ArrowLeft")go(-1)});
+let dn=false,sx=0,sl=0,mv=0;
+tr.addEventListener("pointerdown",e=>{if(e.pointerType!=="mouse")return;dn=true;sx=e.clientX;sl=tr.scrollLeft;mv=0});
+addEventListener("pointermove",e=>{if(!dn)return;const d=e.clientX-sx;mv=Math.max(mv,Math.abs(d));if(mv>5){tr.style.scrollSnapType="none";tr.scrollLeft=sl-d}});
+addEventListener("pointerup",()=>{if(!dn)return;dn=false;tr.style.scrollSnapType="";});
+/* preview otomatis: video/KODE_REEL.mp4 diputar tanpa klik; kalau file belum ada, pakai embed Instagram */
+const io=new IntersectionObserver(es=>es.forEach(en=>{const p=en.target;let v=p.querySelector("video");
+if(!en.isIntersecting){v&&v.pause();return}
+if(p.dataset.ok){v&&v.play().catch(()=>{});return}
+p.dataset.ok=1;const id=p.dataset.id;v=document.createElement("video");
+Object.assign(v,{muted:true,loop:true,autoplay:true,playsInline:true,preload:"metadata"});v.setAttribute("muted","");v.src=`video/${id}.mp4`;
+v.onerror=()=>v.replaceWith(Object.assign(document.createElement("iframe"),{src:`https://www.instagram.com/reel/${id}/embed`,title:"Preview proyek",scrolling:"no",allowFullscreen:true}));
+p.appendChild(v)}),{root:tr,rootMargin:"0px 500px"});
+tr.querySelectorAll(".pv").forEach(p=>io.observe(p));
+/* drone pengikut kursor + percikan warna */
+if(matchMedia("(hover:hover) and (pointer:fine)").matches&&!matchMedia("(prefers-reduced-motion:reduce)").matches){
+const d=$("drone");let x=innerWidth/2,y=innerHeight/2,tx=x,ty=y,tilt=0,last=0;
+addEventListener("pointermove",e=>{tx=e.clientX+26;ty=e.clientY+26;d.classList.add("on");const n=performance.now();if(n-last>50){last=n;const s=document.createElement("i");s.className="sp";s.style.cssText=`left:${e.clientX}px;top:${e.clientY}px;background:${C[Math.random()*5|0]};--dx:${Math.random()*50-25}px;--dy:${Math.random()*50-5}px`;document.body.appendChild(s);setTimeout(()=>s.remove(),800)}});
+document.addEventListener("pointerover",e=>d.classList.toggle("big",!!e.target.closest("a,button")));
+(function f(){const p=x;x+=(tx-x)*.12;y+=(ty-y)*.12;tilt+=((x-p)*2.4-tilt)*.2;d.style.transform=`translate(${x-30}px,${y-30}px) rotate(${Math.max(-35,Math.min(35,tilt))}deg)`;requestAnimationFrame(f)})();
+}
+</script>
+</body>
+</html>
